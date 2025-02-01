@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	setlocale(LC_ALL, "RU");
+
+	int num = 10;
+	int &a = num;
+	
+
+	int val = 12;
+	int* ptr = val;
+
+
+
+	return 0;
+}
