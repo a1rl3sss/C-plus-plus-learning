@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "RU");
+
+	char word[] = "Hi!";
+	for (int i = 0; i < 3; i++)
+		cout << word[i];
+	
+	
+	string words = "Hello World!";
+	cout << '\n' << words;
+
+	words[2] = 'S';
+	cout << '\n' << words << endl;
+
+	
+	cin >> words;
+	cout << "New: " << words;
+
+
+	return 0;
+}
