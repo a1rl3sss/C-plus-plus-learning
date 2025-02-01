@@ -1,0 +1,33 @@
+#include <iostream>
+
+int main() {
+	setlocale(LC_ALL, "RU");
+	
+	int num_1;
+	std::cout << "Введите первое число: ";
+	std::cin >> num_1;
+	int num_2;
+	std::cout << "Введите второе число: ";
+	std::cin >> num_2;
+	char num_3;
+	std::cout << "Укажите математическое действие (символом): ";
+	std::cin >> num_3;
+	if (num_3 == '*') {
+		std::cout << num_1 * num_2;
+
+	}
+	else if (num_3 == '/') {
+		std::cout << num_1 / num_2;
+
+	}
+	else if (num_3 == '+') {
+		std::cout << num_1 + num_2;
+
+	}
+	else if (num_3 == '-') {
+		std::cout << num_1 - num_2;
+
+	}
+
+	return 0;
+}
